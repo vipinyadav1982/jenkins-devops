@@ -1,7 +1,7 @@
 //Scripted Pipeline (Its Old Version of Jenkins File)
 
 // Declarative
-Pipeline {
+pipeline {
 	agent any
 	stages {
 		stage('Build') {
