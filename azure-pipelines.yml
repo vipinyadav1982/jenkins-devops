@@ -27,7 +27,7 @@ steps:
 
 - task: Maven@3
 #displayName: Build Docker image
-inputs:
+  inputs:
     mavenPomFile: 'pom.xml'
     goals: 'spring-boot:build-image'
     publishJUnitResults: false
