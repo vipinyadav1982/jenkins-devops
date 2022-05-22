@@ -15,7 +15,6 @@ pool:
 
 steps:
 - task: Maven@3
-displayName: package code
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
